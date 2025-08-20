@@ -1,7 +1,6 @@
 function Message(){
     return(
-
-        <h1>Ashutosh</h1>
+        <div></div>
     );
 
 
