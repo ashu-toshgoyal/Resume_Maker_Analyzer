@@ -40,6 +40,8 @@ function HomePost() {
               position: "absolute",
               top: "9vh",
               left: "8vh",
+            //   display:'flex',    
+            //   justifyContent:'cen'
             }}
             className="ZennithPost"
           >
@@ -76,8 +78,13 @@ function HomePost() {
               </a>{" "}
               to craft and refine your career journey. 🤝 Plus, you can connect
               with friends, share progress, and grow together — because smarter
-              careers are built side by side!
+              careers are built side by side! <br/>Embark on your journey by selecting your preferred tool
             </p>
+            <button type="button" className="HPbutton Resumeanalyze"><i className="bi bi-clipboard-data-fill"></i> Resume Analyzer</button><br />
+            <br />
+            <button type="button" className="HPbutton TextResume"><i className="bi bi-input-cursor-text"></i> Text-to-Resume</button><br />
+            <br />
+            <button type="button" className="HPbutton Resumecanvas"><i className="bi bi-brush-fill"></i> The Resume Canvas</button>
           </div>
         </div>
       </div>

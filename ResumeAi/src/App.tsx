@@ -13,6 +13,8 @@ function App() {
       <SideBar></SideBar>
       <HomePost/>
       <Rank/>
+      <button>Login</button>
+      <button>Signin</button>
     </div>
   );
 }
