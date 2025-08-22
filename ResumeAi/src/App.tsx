@@ -1,10 +1,18 @@
-import Message from "./Message";
-import List from "./Components/List";
+import './App.css'
+import HomePost from './Components/HomePost';
+import Rank from './Components/Rank';
+import Navbar from './Components/Searchbar';
+import SideBar from './Components/SideBar';
+
 
 function App() {
   return (
     <div>
-      <List></List>
+      <Navbar />
+      {/* <MyC></MyC> */}
+      <SideBar></SideBar>
+      <HomePost/>
+      <Rank/>
     </div>
   );
 }

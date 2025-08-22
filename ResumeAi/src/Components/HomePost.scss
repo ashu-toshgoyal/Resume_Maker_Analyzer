@@ -1,0 +1,54 @@
+.MainSquare{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 70vh;
+    width: 95vh;
+    // border: 2px solid rgba(192, 189, 189, 0.732);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PostBox{
+    background-color: white;
+    border-radius:25px ;
+    position: absolute;
+    top: 10px;
+    height: 55vh;
+    width: 65vh;
+    box-shadow: 2px white;
+
+    // border: 2px solid;
+}
+.profleicon{
+    position: absolute;
+    top: 5vh;
+    left: 2vh;
+    height: 55px;
+    width: 55px;
+    // border: 2px solid;
+    border-radius: 100%;
+    // background: url('/ResumeAi/src/assets/izent.png');
+}
+.profleicon h3{
+    position: absolute;
+    top: -1vh;
+    left: 7vh;
+    font-weight: 100;
+    
+
+}
+.profleicon h5{
+    position: absolute;
+    top: 1vh;
+    left: 7vh;
+    font-weight: 100;
+    
+
+}
+.ZennithPost p::selection{
+    color: #01a1e5da;
+}
+.ZennithPost p a::selection{
+    color: #089282ab;
+}

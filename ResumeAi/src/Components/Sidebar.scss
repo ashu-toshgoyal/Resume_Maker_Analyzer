@@ -1,0 +1,113 @@
+.SideBarBody{
+    position: absolute;
+    top: 20vh;
+    height: 40%;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+}
+
+#HomeBar{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Profilebar{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#DiscoverBar{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#MessageBar{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#NotificationBar{
+    display: flex;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#SettingBar{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#Button_Home {
+  background-color: white;
+  /* color: rgb(17, 170, 235); */
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: 10px 20px; */
+  /* border: 2px solid rgb(17, 170, 235); */
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+#Button_Home:hover {
+  background-color: #11aaeb;
+  color: white;
+  transform: translateY(-2px); /* slight lift effect */
+  box-shadow: 0px 6px 12px rgba(17, 170, 235, 0.4);
+}
+
+#Button_Home:active {
+  transform: translateY(0); /* click effect */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.iconcss{
+    margin-right: 8px;
+}
+

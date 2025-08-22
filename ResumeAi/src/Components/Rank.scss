@@ -1,0 +1,14 @@
+.RankSquare{
+    height: 55vh;
+    width: 45vh;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    right: 5vh;
+    top: 20vh;
+    border-radius: 25px;
+    justify-content: center;
+}
+.RankSquare h3{
+    font-weight: 100;
+}

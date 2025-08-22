@@ -1,0 +1,75 @@
+/* Shared styles for search bar + notification holder */
+#searchbarholder,
+#notiandid {
+  height: 50px;
+  width: 550px;
+  border: 2px solid white; /* fixed */
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Search input */
+#Search {
+  height: 30px;
+  width: 450px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #F3F4F6;
+  padding-left: 15px;
+  font-size: 14px;
+  transition: all 0.4s ease-in;
+}
+
+#Search:focus {
+  border: 1px solid blue;
+  background-color: #fff;
+}
+
+#Search::selection {
+  background-color: #F3F4F6;
+  color: #3a3ad2;
+}
+
+#Search:hover::placeholder{
+  color: #3a3ad2;
+}
+
+#Search:hover{
+  // border: 1px solid;
+  border-color: #3a3ad2;
+}
+
+/* Notification dot */
+.noti {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  /* background-color: red; show as badge */
+  border-radius: 50%;
+}
+
+/* Notification container */
+#notiandid {
+  width: 50px;
+  position: absolute;
+  transition: border-color 0.4s ease-in; /* fixed */
+}
+
+#notiandid:hover {
+  border-color: #3a3ad2;
+}
+
+.searchicon{
+transition: all 0.4s ease-in-out;
+}
+.searchicon:hover{
+  background: linear-gradient(135deg, #3a3ad2, blue, white);
+  -webkit-background-clip: text; /* for Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* makes gradient visible */
+  background-clip: text; /* standard */
+  text-fill-color: transparent;
+}
